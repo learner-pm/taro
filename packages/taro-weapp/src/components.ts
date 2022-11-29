@@ -34,10 +34,13 @@ export const components = {
     'enable-rotate': _false,
     'enable-satellite': _false,
     'enable-traffic': _false,
+    'enable-poi': _true,
+    'enable-building': _true,
     setting: '[]',
     bindLabelTap: _empty,
     bindRegionChange: _empty,
-    bindPoiTap: _empty
+    bindPoiTap: _empty,
+    bindAnchorPointTap: _empty
   },
   Button: {
     lang: 'en',
@@ -69,6 +72,7 @@ export const components = {
     'safe-password-nonce': '',
     'safe-password-salt': '',
     'safe-password-custom-hash': '',
+    'auto-fill': _empty,
     bindKeyboardHeightChange: _empty
   },
   Picker: {
@@ -335,5 +339,6 @@ export const components = {
     duration: '300',
     'easing-function': "'ease-out'"
   },
-  KeyboardAccessory: {}
+  KeyboardAccessory: {},
+  RootPortal: {},
 }
